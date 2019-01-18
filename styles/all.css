@@ -20,7 +20,23 @@ body{
   color: #00f;
 }
 
-.project-holder{
+.project-holder, .persona, .row{
   display: flex;
   flex-direction: row;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.clean{
+  color: #2e7d32;
+}
+
+.moderate{
+  color: #ff8f00;
+}
+
+.highrisk{
+  color: #dd2c00;
 }
