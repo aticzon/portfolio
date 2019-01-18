@@ -1,12 +1,26 @@
+@font-face{
+  font-family: 'Playfair';
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+  font-family: 'Raleway';
+  src: url(../fonts/Raleway/Raleway-Thin.ttf);
+}
+
 body{
   color: black;
+  font-family: 'Raleway';
 }
 
 .emphasis{
-  color:#1769ff;
+  color: #00f;
+  /* font-family:'Playfair'; */
 }
 
-.project{
-  font-weight: bold;
-  color: #1769ff;
+
+.project, .more{
+  color: #00f;
+}
+
+.project-holder{
+  display: flex;
+  flex-direction: row;
 }
