@@ -2,12 +2,71 @@
   font-family: 'Playfair';
   src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
   font-family: 'Raleway';
-  src: url(../fonts/Raleway/Raleway-Thin.ttf);
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+  font-family: 'Libre';
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
 }
+
+/* General Styling */
 
 body{
   color: black;
-  font-family: 'Raleway';
+  font-family: 'Montserrat';
+}
+
+h1{
+  font-family: 'Libre';
+  text-align: center;
+  font-size: 40px;
+  color: #00f;
+}
+
+.ashley{
+  text-align: center;
+  font-size: 18px;
+}
+
+.think{
+  margin-top: 5px;
+}
+
+#name{
+  text-decoration: none;
+}
+
+
+
+/* Navigation */
+nav {
+  list-style-type: none;
+  text-align: right;
+  margin-top: 3em;
+  margin-right: 3em;
+}
+
+nav ul li{
+  display: inline;
+  padding: 18px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #31393C;
+  color: #00f;
+  font-size: 20px;
+  text-align: right;
+}
+
+nav a:hover{
+  border-bottom: 4px solid #00f;
+}
+
+
+.navigation{
+  position: relative;
+  float: right;
 }
 
 .emphasis{
@@ -39,4 +98,19 @@ body{
 
 .highrisk{
   color: #dd2c00;
+}
+
+.onpage{
+  font-weight: bold;
+}
+
+/* Work Page */
+.uxdesign{
+  margin-right: 2em;
+  margin-left: 2em;
+  font-size: 40px;
+}
+
+.selected{
+  text-align: center;
 }
