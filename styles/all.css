@@ -1,8 +1,8 @@
 @font-face{
-  font-family: 'Playfair';
-  src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
-  font-family: 'Raleway';
-  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+  /* font-family: 'Playfair';
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf); */
+  /* font-family: 'Raleway';
+  src: url(../fonts/Raleway/Raleway-Regular.ttf); */
   font-family: 'Libre';
   src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
   font-family: 'Montserrat';
@@ -32,10 +32,9 @@ h1{
   margin-top: 5px;
 }
 
-#name{
+#name, .email{
   text-decoration: none;
 }
-
 
 
 /* Navigation */
@@ -71,17 +70,27 @@ nav a:hover{
 
 .emphasis{
   color: #00f;
-  /* font-family:'Playfair'; */
+  font-family: 'Libre';
 }
 
 
 .project, .more{
   color: #00f;
+  font-family: 'Libre';
+  font-size: 18px;
+}
+
+.more{
+  text-decoration: none;
 }
 
 .project-holder, .persona, .row{
   display: flex;
   flex-direction: row;
+}
+
+.project-space{
+  margin-bottom: 200px;
 }
 
 .bold{
@@ -104,13 +113,65 @@ nav a:hover{
   font-weight: bold;
 }
 
+
+/* Footer  */
+
+
+/* .footernav{
+  margin-right: 20px;
+} */
+
+
 /* Work Page */
 .uxdesign{
   margin-right: 2em;
   margin-left: 2em;
-  font-size: 40px;
+  font-size: 2.8em;
 }
 
 .selected{
   text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+/* .home-img{
+  flex-grow: 1;
+} */
+
+.home-descrip{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 25px;
+}
+
+.projectlist{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 150px;
+}
+
+.middle{
+  width: 500px;
+}
+
+.project-title{
+  color: #00f;
+  font-family: 'Libre';
+  font-size: 30px;
+}
+
+.proj-descrip{
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.email{
+  font-size: 30px;
+}
+
+.emailcenter{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
 }
