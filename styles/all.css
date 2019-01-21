@@ -14,6 +14,12 @@
 body{
   color: black;
   font-family: 'Montserrat';
+  font-size: 100%;
+}
+
+
+a{
+  text-decoration: none;
 }
 
 h1{
@@ -21,6 +27,18 @@ h1{
   text-align: center;
   font-size: 40px;
   color: #00f;
+}
+
+img{
+  width: 100%;
+}
+
+.expimg{
+  width: 65%;
+}
+
+.home-img{
+  width: 100%;
 }
 
 .ashley{
@@ -36,6 +54,10 @@ h1{
   text-decoration: none;
 }
 
+figcaption{
+  text-align: center;
+  margin: 10px auto;
+}
 
 /* Navigation */
 nav {
@@ -158,6 +180,14 @@ nav a:hover{
   font-size: 30px;
 }
 
+.home-img{
+  flex-grow: 3;
+}
+
+.home-descrip{
+  flex-grow: 1;
+}
+
 .emailcenter{
   text-align: center;
   margin-top: 100px;
@@ -202,6 +232,10 @@ li{
   font-size: 18px;
 }
 
+/* .imgbottom{
+  margin-bottom: 20px;
+} */
+
 .rowcenter{
   width: 100%;
   margin-right: auto;
@@ -215,4 +249,129 @@ li{
 
 .tools{
   font-size: 15px;
+}
+
+/* Persona */
+.persona-middle{
+  width: 300px;
+}
+.persona-info p{
+  font-size: 25px;
+  font-size: 20px;
+}
+
+.persona-name{
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+
+.needs p{
+  font-size: 18px;
+}
+
+.needs li{
+  font-size: 15px;
+}
+
+.persona{
+  padding: 30px 30px;
+  background-color: #b9dcff;
+}
+
+.persona-col{
+  flex-direction: column;
+}
+
+/* about */
+.smaller{
+  width: 300px;
+}
+
+/* ipad 900 to 599 */
+/* @media screen and (max-width: 900px){
+
+} */
+
+/* mobile 600px and under */
+@media screen and (max-width: 600px){
+nav{
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li{
+  padding: 0;
+  display: block;
+  margin-top: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+/* Work(home) page */
+.uxdesign{
+  font-size: 1.8em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.selected{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.projectlist{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.project-holder{
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.project-title{
+  font-size: 25px;
+}
+
+.proj-descrip{
+  font-size: 20px;
+}
+
+.project-order{
+  flex-direction: column-reverse;
+}
+
+
+/* project pages */
+.projcontainer{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title-description{
+  font-size: 2em;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+/* persona */
+.persona, .persona-col {
+  flex-direction: column;
+}
+/*
+about */
+.aboutcontainer{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 }
