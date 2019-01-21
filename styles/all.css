@@ -20,6 +20,7 @@ body{
 
 a{
   text-decoration: none;
+  color: #00f;
 }
 
 h1{
@@ -106,6 +107,10 @@ nav a:hover{
   text-decoration: none;
 }
 
+.project-holder{
+  margin-bottom: 40px;
+}
+
 .project-holder, .persona, .row{
   display: flex;
   flex-direction: row;
@@ -150,8 +155,8 @@ nav a:hover{
 }
 
 .home-descrip{
-  margin-top: auto;
-  margin-bottom: auto;
+  /* margin-top: auto;
+  margin-bottom: auto; */
   font-size: 25px;
 }
 
@@ -169,6 +174,7 @@ nav a:hover{
   color: #00f;
   font-family: 'Libre';
   font-size: 30px;
+  margin-top: 0px;
 }
 
 .proj-descrip{
@@ -289,6 +295,29 @@ li{
   width: 300px;
 }
 
+/* gifs */
+.gifs, .wireframes{
+  width: 30%;
+}
+
+
+/* Resume Page */
+
+.resume{
+  width: 90%;
+  display: block;
+  margin: 5px auto;
+}
+
+.download-resume{
+  text-align: center;
+}
+
+/* Clarity */
+.userflow, .img80{
+  width: 80%;
+}
+
 /* ipad 900 to 599 */
 /* @media screen and (max-width: 900px){
 
@@ -301,6 +330,10 @@ nav{
   margin: 0;
 }
 
+nav ul{
+  padding-left: 0;
+}
+
 nav ul li{
   padding: 0;
   display: block;
@@ -308,6 +341,14 @@ nav ul li{
 }
 
 img{
+  width: 100%;
+}
+
+.gifs{
+  width: 100%;
+}
+
+.wireframes{
   width: 100%;
 }
 
@@ -373,5 +414,10 @@ about */
 .aboutcontainer{
   margin-left: 10px;
   margin-right: 10px;
+}
+
+/* Clarity */
+.userflow, .img80{
+  width: 100%;
 }
 }
