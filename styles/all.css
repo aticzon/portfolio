@@ -7,6 +7,10 @@
   src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
   font-family: 'Montserrat';
   src: url(../fonts/Montserrat-Regular.ttf);
+  font-family: 'Montserrat Bold';
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-family: 'Montserrat Italic';
+  src: url(../fonts/Montserrat-Italic.ttf);
 }
 
 /* General Styling */
@@ -28,6 +32,14 @@ h1{
   text-align: center;
   font-size: 40px;
   color: #00f;
+}
+
+strong{
+  font-family: 'Monteserrat Bold';
+}
+
+em{
+  font-family: 'Montserrat Italic';
 }
 
 img{
@@ -206,6 +218,12 @@ nav a:hover{
   margin-left: 5em;
 }
 
+.contact-center{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .title-description{
   font-size: 2.8em;
   font-family: 'Libre';
@@ -326,15 +344,34 @@ li{
   width: 40%;
 }
 
+.img100{
+  width: 100%;
+}
+
+/* SAP */
+.sapgif{
+  margin-bottom: 20px;
+}
+
+
 /* Contact Page */
 .contact-center{
   text-align: center;
 }
 
+
+/* hidden content */
+.desktophide{
+  visibility: hidden;
+}
+
+
+
 /* ipad 900 to 599 */
 /* @media screen and (max-width: 900px){
 
 } */
+
 
 /* mobile 600px and under */
 @media screen and (max-width: 600px){
@@ -418,6 +455,10 @@ h3{
   font-size: 20px;
 }
 
+.row{
+  flex-direction: column;
+}
+
 /* persona */
 .persona, .persona-col {
   flex-direction: column;
@@ -438,6 +479,20 @@ Image size changes */
 
 .img60, .expimg, .img40{
   width: 100%;
+}
+
+.rowcenter img{
+  margin: 5px 0px;
+}
+
+/* hidden content */
+.desktophide{
+  visibility: visible;
+  margin-top: 5px;
+}
+
+.mobilehide{
+  visibility: hidden;
 }
 
 }
