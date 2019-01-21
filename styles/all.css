@@ -165,13 +165,14 @@ nav a:hover{
 }
 
 /* Project Styling */
-.projcontainer{
+.projcontainer, .aboutcontainer{
   margin-right: 5em;
   margin-left: 5em;
 }
 
 .title-description{
   font-size: 2.8em;
+  font-family: 'Libre';
 }
 
 .imgcenter{
@@ -185,6 +186,22 @@ h2, h3{
   font-family: 'Libre';
 }
 
+h2{
+  font-size: 35px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+p{
+  font-size: 20px;
+}
+
+li{
+  font-size: 18px;
+}
+
 .rowcenter{
   width: 100%;
   margin-right: auto;
@@ -193,4 +210,9 @@ h2, h3{
 }
 
 .rowcenter img{
-  margin: 10px}
+  margin: 10px
+}
+
+.tools{
+  font-size: 15px;
+}
