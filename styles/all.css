@@ -114,14 +114,6 @@ nav a:hover{
 }
 
 
-/* Footer  */
-
-
-/* .footernav{
-  margin-right: 20px;
-} */
-
-
 /* Work Page */
 .uxdesign{
   margin-right: 2em;
@@ -134,10 +126,6 @@ nav a:hover{
   margin-top: 70px;
   margin-bottom: 70px;
 }
-
-/* .home-img{
-  flex-grow: 1;
-} */
 
 .home-descrip{
   margin-top: auto;
@@ -175,3 +163,34 @@ nav a:hover{
   margin-top: 100px;
   margin-bottom: 150px;
 }
+
+/* Project Styling */
+.projcontainer{
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+.title-description{
+  font-size: 2.8em;
+}
+
+.imgcenter{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2, h3{
+  color: #00f;
+  font-family: 'Libre';
+}
+
+.rowcenter{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.rowcenter img{
+  margin: 10px}
