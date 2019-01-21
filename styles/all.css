@@ -35,7 +35,7 @@ img{
 }
 
 .expimg{
-  width: 65%;
+  width: 90%;
 }
 
 .home-img{
@@ -318,6 +318,19 @@ li{
   width: 80%;
 }
 
+.img60{
+  width: 60%;
+}
+
+.img40{
+  width: 40%;
+}
+
+/* Contact Page */
+.contact-center{
+  text-align: center;
+}
+
 /* ipad 900 to 599 */
 /* @media screen and (max-width: 900px){
 
@@ -416,8 +429,15 @@ about */
   margin-right: 10px;
 }
 
-/* Clarity */
+/* Clarity*/
 .userflow, .img80{
   width: 100%;
 }
+/*
+Image size changes */
+
+.img60, .expimg, .img40{
+  width: 100%;
+}
+
 }
