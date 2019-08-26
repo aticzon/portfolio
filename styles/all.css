@@ -46,8 +46,12 @@ img{
   width: 100%;
 }
 
+li{
+  line-height: 1.6em;
+}
+
 .expimg{
-  width: 90%;
+  width: 100%;
 }
 
 .home-img{
@@ -188,11 +192,14 @@ nav a:hover{
   font-family: 'Libre';
   font-size: 30px;
   margin-top: 0px;
+  line-height: 1.6em;
+
 }
 
 .proj-descrip{
   font-family: 'Montserrat';
   font-size: 20px;
+  line-height: 1.6em;
 }
 
 .email{
@@ -219,6 +226,19 @@ nav a:hover{
   margin-left: 5em;
 }
 
+.aboutcontainer{
+  line-height: 2em;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .contact-center{
   display: block;
   margin-right: auto;
@@ -228,6 +248,7 @@ nav a:hover{
 .title-description{
   font-size: 2.8em;
   font-family: 'Libre';
+  line-height: 2em;
 }
 
 .imgcenter{
@@ -236,7 +257,7 @@ nav a:hover{
   margin-left: auto;
 }
 
-h2, h3{
+h2, h3, h4{
   color: #00f;
   font-family: 'Libre';
 }
@@ -249,6 +270,10 @@ h3{
   font-size: 25px;
 }
 
+h4{
+  font-size: 20px;
+}
+
 p{
   font-size: 20px;
 }
@@ -257,9 +282,11 @@ li{
   font-size: 18px;
 }
 
-/* .imgbottom{
-  margin-bottom: 20px;
-} */
+blockquote{
+  line-height: 2em;
+  font-size: 20px;
+
+}
 
 .rowcenter{
   width: 100%;
@@ -274,6 +301,10 @@ li{
 
 .tools{
   font-size: 15px;
+}
+
+.projcontainer p{
+  line-height: 2em;
 }
 
 /* Persona */
@@ -347,6 +378,10 @@ li{
 
 .img100{
   width: 100%;
+}
+
+.clarity_decrease{
+  width: 80%;
 }
 
 /* SAP */
@@ -435,10 +470,12 @@ img{
 
 .project-title{
   font-size: 25px;
+  line-height: 1.6em;
 }
 
 .proj-descrip{
   font-size: 20px;
+  line-height: 1.6em;
 }
 
 .project-order{
@@ -452,6 +489,11 @@ img{
   margin-right: 10px;
 }
 
+.article{
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
 .title-description{
   font-size: 2em;
 }
@@ -462,6 +504,10 @@ h2{
 
 h3{
   font-size: 20px;
+}
+
+h4{
+  font-size: 19px;
 }
 
 .row{
